@@ -34,8 +34,9 @@ I have also created [a set of Jupyter notebooks](https://github.com/academicpage
 
 Honors and Awards
 ------
-Best Poster Award in Student Research Forum at ASP-DAC 2023
+* Best Poster Award in Student Research Forum at ASP-DAC, 2023
+* Jilin University Third-Class Scholarship, 2014
 
-For more info
+News
 ------
 More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
