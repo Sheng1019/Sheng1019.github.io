@@ -19,9 +19,9 @@ Education
   
 Research Interest
 ------
-Hardware/Software Co-design for Embedded Systems
-Fairness of Artificial Intelligence
-Medical Image Reconstruction
+1. Hardware/Software Co-design for Embedded Systems
+2. Fairness of Artificial Intelligence
+3. Medical Image Reconstruction
 
 Professional Experience
 ------
