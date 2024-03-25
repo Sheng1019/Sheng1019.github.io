@@ -26,7 +26,8 @@ Research Interest
 Professional Experience
 ------
 * TPC Member at IEEE Computer Society Annual Symposium on VLSI (ISLVLSI 2024)
-* Major Organizer of 1st ESFair Challenge at ESWEEK 2023
+* Major Organizer of 1st ESFair Challenge at ESWEEK 2023  
+  
  One of the major organizers for ‘Classification Track: Fair and Intelligent Embedded System Challenge
 (ESFair)’, at the first Tiny and Fair ML Design Contest, co-located at the Embedded Systems Week
 (ESWEEK) 2023. ESFair’23 was sponsored by the Council on Electronic Design Automation (CEDA).
