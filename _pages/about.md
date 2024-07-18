@@ -19,9 +19,8 @@ Education
   
 Research Interest
 ------
-1. Hardware/Software Co-design for Embedded Systems
-2. Fairness of Artificial Intelligence
-3. Medical Image Reconstruction
+Design Automation (System) + Medical (Domain) + AI (Method) = Efficient Medical AI System
+Summary: My research agenda is anchored in advancing AI technology in the medical domain. I am actively engaged in Electronic Design Automation (EDA) for AI systems, medical image computing, and AI fairness. My research goal is to bridge the practice gap between AI and domain applications, especially in achieving fair, energy-efficient, and time-efficient Medical AI Systems.
 
 Professional Experience
 ------
