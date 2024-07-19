@@ -1,8 +1,8 @@
 {% include base_path %}
 
-{% assign first_reference_displayed = false %}
+{% assign publications = site.publications %}
 
-{% for post in site.posts %}
+{% for post in publications %}
   <div class="{{ include.type | default: "list" }}__item">
     <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
       {% if post.header.teaser %}
@@ -47,11 +47,6 @@
         <p>Recommended citation: {{ post.citation }}</p>
       {% elsif post.paperurl %}
         <p class="wordwrap">Download <a href="{{ post.paperurl }}">here</a></p>
-      {% endif %}
-
-      {% if first_reference_displayed == false %}
-        <p class="special-note">This is the first reference!</p>
-        {% assign first_reference_displayed = true %}
       {% endif %}
     </article>
   </div>
