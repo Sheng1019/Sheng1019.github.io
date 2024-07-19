@@ -10,8 +10,11 @@ I am currently a Ph.D. student in the Department of Electrical and Computer Engi
 
 I received my Bachelor’s degree from Jilin University, China, and my Master's degree from Universitat Politècnica de Catalunya in Spain.
 <p style="color: red;">I'm on the academic job market this year. Please reach out for any opportunities!</p>
+
+
 Education
-======
+------
+
 * Ph.D in George Mason University, 2025 (expected)
 * M.S. in Universitat Politècnica de Catalunya, 2021
 * B.S. in Jilin University, 2016
