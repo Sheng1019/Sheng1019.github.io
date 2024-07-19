@@ -1,5 +1,5 @@
 ---
-title: "2024"
+title: "2022"
 ---
 
 [1] The larger the fairer? small neural networks can achieve fairness for edge devices  
