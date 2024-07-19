@@ -9,10 +9,6 @@ author_profile: true
   <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
 {% endif %}
 
-Summary: 16 papers are published and 1 paper is under review. 8 published papers belong to
-the selective conferences in CSRanking, where 6 of them are first/co-first authored papers (leader) or
-the second author (main contributor) under the Design Automation area (i.e., DAC, ICCAD), 2 papers
-are published at the top conference on medical image processing (i.e., MICCAI).
 
 
 {% include base_path %}
