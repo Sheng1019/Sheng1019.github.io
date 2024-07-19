@@ -1,0 +1,8 @@
+---
+title: "Fast and Fair Medical AI on the Edge Through Neural Architecture Search for Hybrid Vision Models"
+date: 2023-10-28
+collection: publications
+venue: "In 2023 IEEE/ACM International Conference on Computer Aided Design (ICCAD)"
+citation: "Yang C∗, **Sheng Y∗**, Dong P∗, Kong Z, Li Y, Yu P, Yang L, Lin X, Wang Y. In 2023 IEEE/ACM International Conference on Computer Aided Design (ICCAD) 2023 Oct 28 (pp. 01-09)."
+paperurl: "https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=10323652"
+---
