@@ -10,8 +10,8 @@ title: "2024"
 #Automation Conference (DAC) 2022 Jul 10 (pp. 163-168)'
 ---
 
-[1] **Sheng Y**, Wang H, Liu Y, Yang J, Jiang W, Lin Y, Yang L, “APS-USCT: Ultrasound Computed Tomography on Sparse Data via AI-Physic Synergy”, Accepted by MICCAI 2024
-Acceptance rate: 858/2771=31%
+[1] **Sheng Y**, Yang J, Wu Y, Mao K, Shi Y, Hu J, Jiang W, Yang L. The larger the fairer? small neural networks can achieve fairness for edge devices. InProceedings of the 59th ACM/IEEE Design
+Automation Conference (DAC) 2022 Jul 10 (pp. 163-168).
 
 
 
