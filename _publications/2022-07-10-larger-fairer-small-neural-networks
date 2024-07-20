@@ -4,7 +4,6 @@ date: 2022-07-10
 collection: publications
 venue: "In Proceedings of the 59th ACM/IEEE Design Automation Conference (DAC)"
 citation: "**Sheng Y**, Yang J, Wu Y, Mao K, Shi Y, Hu J, Jiang W, Yang L. The larger the fairer? small neural networks can achieve fairness for edge devices. In Proceedings of the 59th ACM/IEEE Design Automation Conference (DAC) 2022 Jul 10 (pp. 163-168)."
-paperurl: "https://dl.acm.org/doi/pdf/10.1145/3489517.3530427"
+
 ---
 
-**Sheng Y**, Yang J, Wu Y, Mao K, Shi Y, Hu J, Jiang W, Yang L. The larger the fairer? small neural networks can achieve fairness for edge devices. InProceedings of the 59th ACM/IEEE Design Automation Conference (DAC) 2022 Jul 10 (pp. 163-168).
