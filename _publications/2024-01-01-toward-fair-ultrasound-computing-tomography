@@ -4,7 +4,7 @@ date: 2024-01-01
 collection: publications
 venue: "In Proceedings of the Great Lakes Symposium on VLSI"
 citation: "**Sheng Y**, Yang J, Lin Y, Jiang W, Yang L. Toward Fair Ultrasound Computing Tomography: Challenges, Solutions and Outlook. In Proceedings of the Great Lakes Symposium on VLSI 2024 (pp. 748-753)."
-paperurl: "http://example.com/your-paper.pdf"
+paperurl: "https://dl.acm.org/doi/pdf/10.1145/3649476.3660387"
 ---
 
 **Sheng Y**, Yang J, Lin Y, Jiang W, Yang L. Toward Fair Ultrasound Computing Tomography: Challenges, Solutions and Outlook. In Proceedings of the Great Lakes Symposium on VLSI 2024 (pp. 748-753).
