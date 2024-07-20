@@ -4,7 +4,7 @@ date: 2023-01-16
 collection: publications
 venue: "In Proceedings of the 28th Asia and South Pacific Design Automation Conference (ASP-DAC)"
 citation: "**Sheng Y**, Yang J, Jiang W, Yang L. In Proceedings of the 28th Asia and South Pacific Design Automation Conference (ASP-DAC) 2023 Jan 16 (pp. 612-617)."
-paperurl: "http://example.com/your-paper.pdf"
+paperurl: "https://dl.acm.org/doi/abs/10.1145/3566097.3568357"
 ---
 
 [4] Toward fair and efficient hyperdimensional computing  
