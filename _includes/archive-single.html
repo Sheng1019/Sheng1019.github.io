@@ -5,7 +5,8 @@
 {% for year in publications_by_year %}
   <h2>{{ year.name }}</h2>
   <ul>
-    {% for post in year.items %}
+    {% assign unique_posts = year.items | uniq %}
+    {% for post in unique_posts %}
       <li>
         <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
           {% if post.header.teaser %}
