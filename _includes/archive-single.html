@@ -5,48 +5,46 @@
 {% for year in publications_by_year %}
   <h2>{{ year.name }}</h2>
   <ul>
-    {% assign unique_titles = "" %}
+    {% assign seen_titles = "" %}
     {% for post in year.items %}
-      {% if unique_titles contains post.title %}
-        {% continue %}
-      {% else %}
-        {% assign unique_titles = unique_titles | append: post.title | append: ";" %}
-      {% endif %}
-      <li>
-        <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-          {% if post.header.teaser %}
-            {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
-          {% else %}
-            {% assign teaser = site.teaser %}
-          {% endif %}
-
-          {% if post.id %}
-            {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
-          {% else %}
-            {% assign title = post.title %}
-          {% endif %}
-
-          <h3 class="archive__item-title" itemprop="headline">
-            {% if post.link %}
-              <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+      {% unless seen_titles contains post.title %}
+        {% assign seen_titles = seen_titles | append: post.title | append: ";" %}
+        <li>
+          <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+            {% if post.header.teaser %}
+              {% capture teaser %}{{ post.header.teaser }}{% endcapture %}
             {% else %}
-              <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+              {% assign teaser = site.teaser %}
             {% endif %}
-          </h3>
 
-          {% if post.venue %}
-            <p><i>{{ post.venue }}</i></p>
-          {% endif %}
+            {% if post.id %}
+              {% assign title = post.title | markdownify | remove: "<p>" | remove: "</p>" %}
+            {% else %}
+              {% assign title = post.title %}
+            {% endif %}
 
-          {% if post.citation %}
-            <p>{{ post.citation | markdownify }}</p>
-          {% endif %}
+            <h3 class="archive__item-title" itemprop="headline">
+              {% if post.link %}
+                <a href="{{ post.link }}">{{ title }}</a> <a href="{{ base_path }}{{ post.url }}" rel="permalink"><i class="fa fa-link" aria-hidden="true" title="permalink"></i><span class="sr-only">Permalink</span></a>
+              {% else %}
+                <a href="{{ base_path }}{{ post.url }}" rel="permalink">{{ title }}</a>
+              {% endif %}
+            </h3>
 
-          {% if post.paperurl %}
-            <p class="wordwrap">Download <a href="{{ post.paperurl }}">here</a></p>
-          {% endif %}
-        </article>
-      </li>
+            {% if post.venue %}
+              <p><i>{{ post.venue }}</i></p>
+            {% endif %}
+
+            {% if post.citation %}
+              <p>{{ post.citation | markdownify }}</p>
+            {% endif %}
+
+            {% if post.paperurl %}
+              <p class="wordwrap">Download <a href="{{ post.paperurl }}">here</a></p>
+            {% endif %}
+          </article>
+        </li>
+      {% endunless %}
     {% endfor %}
   </ul>
 {% endfor %}
