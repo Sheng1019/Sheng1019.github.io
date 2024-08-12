@@ -48,4 +48,4 @@ News
 
 Visitors
 ------
-<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=PjgHw-OcfGbkZsa78YFVI6ZcXKW5zhX2-FPP6G9rw5U&cl=ffffff&w=a"></script>
+<a href="https://clustrmaps.com/site/1c0iy"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=PjgHw-OcfGbkZsa78YFVI6ZcXKW5zhX2-FPP6G9rw5U&cl=ffffff" /></a>
