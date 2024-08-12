@@ -43,4 +43,4 @@ Honors and Awards
 
 Visitors
 ------
-<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=PjgHw-OcfGbkZsa78YFVI6ZcXKW5zhX2-FPP6G9rw5U"></script>
+<script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=PjgHw-OcfGbkZsa78YFVI6ZcXKW5zhX2-FPP6G9rw5U&cl=ffffff&w=a"></script>
