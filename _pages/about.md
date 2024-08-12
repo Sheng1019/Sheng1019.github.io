@@ -41,6 +41,11 @@ Honors and Awards
 * Best Poster Award in Student Research Forum at ASP-DAC, 2023
 * Jilin University Third-Class Scholarship, 2014
 
+News
+------
+* Two papers are accepted by MICCAI 2024
+
+
 Visitors
 ------
 <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=PjgHw-OcfGbkZsa78YFVI6ZcXKW5zhX2-FPP6G9rw5U&cl=ffffff&w=a"></script>
